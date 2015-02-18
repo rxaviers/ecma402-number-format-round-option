@@ -1,6 +1,6 @@
 # NumberFormat round option
 
-## Stage 0
+## Proposal for stage 0
 
 Allows to select a rounding function for NumberFormat different than round
 "half-even". For example: ceil, floor, or truncate.
