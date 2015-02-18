@@ -17,14 +17,14 @@ http://www.unicode.org/reports/tr35/tr35-numbers.html#Roundingo
 let formatUsingHalfEvenRounding = new Intl.NumberFormat("en").format(Math.PI);
 // "3.142"
 
-let formatUsingFloorRounding = new Intl.NumberFormat("en", {round: "floor"}).format(Math.PI);
+let formatUsingFloorRounding = new Intl.NumberFormat("en", {round: Math.floor}).format(Math.PI);
 // "3.141"
 
 let formatCurrencyUsingCeilRounding = new Intl.NumberFormat("en", {
   style: "currency",
   currency: "USD",
   currencyDisplay: "symbol",
-  round: "ceil"
+  round: Math.ceil
 }).format(9.991);
 // "$10.00"
 ```
