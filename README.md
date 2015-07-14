@@ -9,7 +9,7 @@ Such option is present on Unicode Technical Standard #35, part 3 Numbers, which
 says "An implementation may allow the specification of a rounding mode to
 determine how values are rounded".
 
-http://www.unicode.org/reports/tr35/tr35-numbers.html#Roundingo
+http://www.unicode.org/reports/tr35/tr35-numbers.html#Rounding
 
 ## Usage
 
